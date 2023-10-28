@@ -33,7 +33,7 @@ echo "Will end in about 10min." | Write-Host -ForegroundColor Cyan
 echo ""
 
 $userInputNetwork = Read-Host "Network to scan [192.168.0.0]"
-$userInputFile = Read-Host "Do you want to send result in a file ? [Y/n]"
+$userInputFile = Read-Host "Do you want to send result in a file ? [y/N]"
 $dateTime = Get-Date -Format "yyyy-MM-dd-HH-mm-ss"
 
 
