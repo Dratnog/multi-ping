@@ -65,7 +65,7 @@ function Test-NetworkIPs {
 			"$testTime | Testing : $networkIp --->		True" | Write-Host -ForegroundColor Green
 			Start-Sleep -Seconds 1
 		} else {
-			"$testTime |Testing : $networkIp --->		False" | Write-Host -ForegroundColor Red
+			"$testTime | Testing : $networkIp --->		False" | Write-Host -ForegroundColor Red
 		}
 	}
 }
